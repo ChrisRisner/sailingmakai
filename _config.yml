@@ -1,0 +1,37 @@
+title: Sailing Makai
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+url: http://sailingmakai.com
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: /:title
+
+markdown: redcarpet
+highlighter: pygments
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /
+ - title: About
+   url: /about
+ - title: Crew
+   url: /crew   
+ - title: Useful Information
+   url: /useful-info
+ - title: Contact
+   url: /contact
+
+social:
+   github: sailingmakai
+   twitter: sailingmakai
+   email: sailingmakai@sailingmakai.com
+   
+# Disqus Comments
+disqus_short_name: sailingmakai
+disqus_show_comment_count: true
+disqus_comments: true
+
+google_analytics: "UA-51234301-1"
